@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
    const color = document.getElementById("select-colour").value;
    const taskDescription = document.getElementById("new-task-description").value;
    if (taskDescription.trim() !== ""){
-     addTaskToList(taskDescription, color);
+     addTaskToList(taskDescription);
      taskForm.reset();
    }
   });
